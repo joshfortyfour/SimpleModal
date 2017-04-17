@@ -1,0 +1,14 @@
+<?php //@codingStandardsIgnoreFile ?>
+
+<?php /** @var $block Oddyssey\SimpleModal\Block\Modal */ ?>
+<?php if ($block->isEnabled()) : ?>
+    <div class="simple-modal" data-mage-init='{ "simpleModal": { "active": true } }'>
+        <h1 class="simple-modal__heading">
+            <?php echo $block->getHeading(); ?>
+        </h1>
+        <p class="simple-modal__body">
+            <?php echo $block->getBody(); ?>
+        </p>
+        <span class="simple-modal__button">Close</span>
+    </div>
+<?php endif; ?>

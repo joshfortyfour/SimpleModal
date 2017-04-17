@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Oddyssey_SimpleModal::top_level_menu" resource="Oddyssey_SimpleModal::top_level_menu" title="Simple Modal" action="oddyssey_simplemodal/index/index" module="Oddyssey_SimpleModal" sortOrder="10"/>
+    </menu>
+</config>
